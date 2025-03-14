@@ -1,7 +1,15 @@
 [package]
-name = "Email-Newsletter"
+name = "email_newsletter"
 version = "0.1.0"
 edition = "2024"
+authors = ["Hamza Wahed <hzd454@gmail.com>"]
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+path = "src/main.rs"
+name = "email_newsletter"
 
 [dependencies]
 actix-web = "4"
